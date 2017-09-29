@@ -23,7 +23,7 @@ class MyTask(PyTask):
 		super(MyTask, self).__init__(description)
 
 	def onExecute(self):
-		print "MyTask is running...(" + self.description + ")"
+		print ("MyTask is running...(" + self.description + ")")
 		for i in range(10):
 			time.sleep(0.1)
 			if True == self.mStopRunning:

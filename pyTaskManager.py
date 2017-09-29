@@ -112,7 +112,7 @@ class PyTaskManager:
 						self.threads.append(t)
 						aTask.running = True
 						aTask._thread = t
-			    		t.start()
+						t.start()
 		finally:
 			self.mutexThreads.release()
 			self.mutexTasks.release()
