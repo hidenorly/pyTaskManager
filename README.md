@@ -45,3 +45,24 @@ if __name__ == '__main__':
 
 You can use ```cancelTask(yourTask)```, ```stopAll()```.
 In your ```onExecute()``` derived from PyTask class, you can refer to ```mStopRunning``` for checking your thread is needed to stop or not.
+
+
+# Confirmed environment
+
+## Ubuntu 16.04.3 LTS
+
+```
+$ python --version
+Python 2.7.12
+$ python3 --version
+Python 3.5.2
+```
+
+## Mac OS X 10.11.6
+
+```
+$ python --version
+Python 2.7.13
+$ python3 --version
+Python 3.6.1
+```
