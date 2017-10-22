@@ -43,8 +43,9 @@ if __name__ == '__main__':
 	taskMan.finalize();
 ```
 
-You can use ```cancelTask(yourTask)```, ```stopAll()```.
-In your ```onExecute()``` derived from PyTask class, you can refer to ```mStopRunning``` for checking your thread is needed to stop or not.
+You can use ```cancelTask(yourTask)```, ```stopAll()``` on ```TaskManager```.
+
+And on your derived class of ```PyTask```, you can refer to ```mStopRunning``` in ```onExecute()``` for checking your thread is needed to stop or not.
 
 
 # Confirmed environment
